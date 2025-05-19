@@ -18,7 +18,6 @@ const Wordle = () => {
           {/* Grid gets populated by game.js */}
         </div>
 <div id="reveal-word" style={{ marginTop: '20px', fontWeight: 'bold', fontSize: '1.2rem' }}></div>
-
       </div>
     </div>
   );
