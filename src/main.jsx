@@ -5,7 +5,7 @@ import HomePage from './pages/HomePage';
 import RPSGame from './pages/rps/App';
 import Board from './pages/ttt/board';
 import './index.css';
-import App from './pages/rps/App'
+import Wordle from './pages/wordle/Wordle';
 
 const root = createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +15,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/gamehub-noahwardega/" element={<HomePage/>} />
+        <Route path="/gamehub-noahwardega/wordle" element={<Wordle/>} />
         <Route path="/gamehub-noahwardega/rps" element={<RPSGame/>} />
         <Route path="/gamehub-noahwardega/ttt" element={<Board/>} />
         {/* more routes */}
